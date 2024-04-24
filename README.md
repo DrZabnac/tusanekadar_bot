@@ -1,4 +1,4 @@
-TUS(Tıpta Uzmanlık Sınavı) 2.Dönem (18 Ağustos 2024 10:00) sınav tarihine ne kadar süre kaldığını gösteren basit bir telegram botu...
+<h3>TUS(Tıpta Uzmanlık Sınavı) 2.Dönem (18 Ağustos 2024 10:00) sınav tarihine ne kadar süre kaldığını gösteren basit bir telegram botu...</h3>
 
 BOT linki: https://t.me/tusanekadarbot 
 
