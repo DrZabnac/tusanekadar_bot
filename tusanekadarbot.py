@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from uuid import uuid4
-
+from keep_alive import keep_alive
 from telegram import InlineQueryResultArticle, InputTextMessageContent, Update
 from telegram.ext import (
     Application,
@@ -176,5 +176,7 @@ if __name__ == "__main__":
     # polling for bot
     print("Starting polling...")
 
+    keep_alive()
+    
     # Run the bot until the user presses Ctrl-C
     app.run_polling(poll_interval=0.1, allowed_updates=Update.ALL_TYPES)
